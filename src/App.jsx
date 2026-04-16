@@ -42,6 +42,7 @@ const AuthenticatedApp = () => {
         <Route path="/CommercialUtilities" element={<CommercialUtilities />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         {/* Add your page Route elements here */}
       </Route>
       <Route path="*" element={<PageNotFound />} />
