@@ -24,7 +24,7 @@ export default function Footer() {
                 { label: "Commercial Utilities", to: "/CommercialUtilities" },
                 { label: "Blog", to: "/Blog" },
                 { label: "Contact", to: "/Contact" },
-                { label: "Privacy Policy", href: "#" },
+                { label: "Privacy Policy", to: "/privacy-policy" },
               ].map((item) =>
                 item.to ? (
                   <Link key={item.label} to={item.to} className="text-white/80 hover:text-white text-sm transition-colors hover:underline">{item.label}</Link>
