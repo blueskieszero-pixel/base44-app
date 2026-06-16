@@ -33,8 +33,6 @@ export default function Header() {
           <Link to="/HomeUtilities" className="px-3 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors rounded-lg hover:bg-secondary">
             Home Utilities
           </Link>
-          <Link to="/CommercialUtilities" className="px-3 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors rounded-lg hover:bg-secondary">Commercial Utilities</Link>
-          <Link to="/Blog" className="px-3 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors rounded-lg hover:bg-secondary">News</Link>
           <Link to="/Contact" className="px-3 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors rounded-lg hover:bg-secondary">Contact</Link>
         </nav>
 
