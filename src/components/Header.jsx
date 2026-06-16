@@ -51,8 +51,6 @@ export default function Header() {
             <nav className="flex flex-col gap-1">
               <Link to="/" className="px-4 py-3 text-foreground font-medium hover:bg-secondary hover:text-primary rounded-xl transition-colors">Home</Link>
               <Link to="/HomeUtilities" className="px-4 py-3 text-foreground font-medium hover:bg-secondary hover:text-primary rounded-xl transition-colors">Home Utilities</Link>
-              <Link to="/CommercialUtilities" className="px-4 py-3 text-foreground font-medium hover:bg-secondary hover:text-primary rounded-xl transition-colors">Commercial Utilities</Link>
-              <Link to="/Blog" className="px-4 py-3 text-foreground font-medium hover:bg-secondary hover:text-primary rounded-xl transition-colors">News</Link>
               <Link to="/Contact" className="px-4 py-3 text-foreground font-medium hover:bg-secondary hover:text-primary rounded-xl transition-colors">Contact</Link>
             </nav>
           </SheetContent>
