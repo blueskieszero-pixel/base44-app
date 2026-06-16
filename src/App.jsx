@@ -37,8 +37,6 @@ const AuthenticatedApp = () => {
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/HomeUtilities" element={<HomeUtilities />} />
-        <Route path="/CommercialUtilities" element={<CommercialUtilities />} />
-        <Route path="/Blog" element={<Blog />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         {/* Add your page Route elements here */}
